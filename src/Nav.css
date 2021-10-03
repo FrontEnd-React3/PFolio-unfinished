@@ -1,0 +1,15 @@
+.MobileNavigation {
+  display: none;
+}
+@media (max-width: 990px) {
+  .NVB__header {
+    display: none;
+  }
+  .MobileNavigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50px;
+    margin: 10px 10px 0px 0px;
+  }
+}
