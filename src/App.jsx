@@ -5,7 +5,7 @@ import Contact from "./components/contact/Contact";
 import "./app.scss";
 import "./App.css";
 import React, { useRef, useEffect, useState } from "react";
-import MobileNavigation from "./MobileNavigation";
+import MobileNavigation from "./components/menu/MobileNavigation";
 import Navbar from "./Navbar";
 
 const useElementOnScreen = () => {
@@ -63,7 +63,7 @@ function App() {
     <div className="app">
       <Navbar /> <MobileNavigation />
       <main className="sections">
-        <section id="home">
+        <section>
           <div ref={homeRef} className="home">
             <Intro />
           </div>

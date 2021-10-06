@@ -3,7 +3,7 @@
 #contactid {
   background-color: white;
   display: flex;
-  min-height: calc(100vh - 0px);
+  min-height: calc(100vh - 80px);
 
   @include mobile {
     flex-direction: column;

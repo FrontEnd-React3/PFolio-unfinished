@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 import { motion } from "framer-motion";
 const animateFrom = { opacity: 0, y: -40 };
 const animateTo = { opacity: 1, y: 0 };
@@ -72,3 +73,4 @@ function NavLinks(props) {
 }
 
 export default NavLinks;
+// responsive navbar https://www.youtube.com/watch?v=Et5tDPoU03c&t=1148s
